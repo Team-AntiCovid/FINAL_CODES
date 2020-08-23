@@ -100,7 +100,7 @@ void loop() {
   long duration0 = pulseIn(echoPin0, HIGH);
   int distance0 = duration0 * 0.0348 / 2; 
   Serial.print(distance0);
-  Serial.println(" ");                             // GETTING DISTANCE FROM SENSOR3
+  Serial.println(" ");                             // GETTING DISTANCE FROM SENSOR4
 
 
 
